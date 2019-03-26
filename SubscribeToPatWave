@@ -42,7 +42,9 @@ void myHandler(const char *event, const char *data)
 	    digitalWrite(boardLed, HIGH);
 	    delay(1000);
 	    digitalWrite(boardled. LOW);
-	    // We don't want anything to happen without a wave.
-
+	}
+	else
+	{
+	  // we don't want anything to happen without a pat or wave
 	}
 }
